@@ -1,0 +1,275 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.head{
+    padding-top: 7em;
+    background-image: url("https://image.ibb.co/nymPrH/background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: 0 2em;
+}
+
+.image-div{
+    margin: auto;
+    align-content: center;
+    width: 12em;
+    height: 12em;
+}
+
+.image-border{
+    border: solid rgb(155, 219, 246) 10px;
+    background-color: rgba(255, 255,255, 0.8);
+    border-radius: 50%;
+    padding: 10px;
+    width: 12em;
+    height: 12em;
+    position: relative;
+}
+
+.image{
+    width:100%;
+    height:100%;
+}
+
+.h1{
+    text-align: center;
+    color: rgb(244, 255, 251);
+    padding: 0 15px 5px;
+    display: inline;
+    border-left: 10px #2196f3 solid;
+    background-color: rgba(128, 128, 128, 0.25);
+    font-family: "Comic Sans MS";
+}
+
+.h2{
+    margin: 0.25em !important;
+}
+
+.info{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.125);
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+
+.content{
+    padding-top: 1em;
+}
+
+.grid{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 100%;
+}
+
+.border1{
+    border: lightgray 1px solid;
+}
+
+.card{
+    max-width: 14em;
+    position: relative;
+}
+
+.card-header{
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color:  #d1ecf1;
+    color: #1f58a3;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.border-top{
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body{
+    font-size: 1.05em;
+    min-height: 7em;
+}
+
+.card-footer{
+    background-color: rgba(233, 233, 233, 0.425);
+    max-height: 2.9em;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+}
+
+.badge{
+    position: absolute;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    font-weight: lighter;
+    line-height: 1;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #dc3545;
+    right: 0.25em;
+}
+
+left{
+    text-align: start;
+}
+
+.center{
+    text-align: center;
+}
+
+right{
+    text-align: end;
+}
+
+.button{
+    width: 48%;
+    text-decoration:none;
+    color: white;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.disabled{
+    background-color: #78967f;
+    border-color: #78967f;
+    opacity: 0.8;
+    cursor: unset;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.button:focus, .button.focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.button.disabled, .button:disabled {
+    background-color: #78967f;
+    border-color: #78967f;
+}
+.button:not([disabled]):not(.disabled):active, .button:not([disabled]):not(.disabled).active{
+  color: #fff;
+  background-color: #1e7e34;
+  border-color: #1c7430;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+.m-1{
+    margin:0.25em;
+}
+
+.mt-1{
+    margin-top:1em;
+}
+
+.mt-2{
+    margin-top:1.5em;
+}
+
+.p-1{
+    padding: 0.25em;
+    
+}
+
+.p-2{
+    padding: 0.5em;
+    padding-top: 0.6em
+}
+
+.pb-2{
+    padding-bottom:1.5em;
+}
+
+.py-1
+{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.link{
+    margin-top: 2em;
+    font-size: 20px;
+    background-color: rgba(221, 221, 221, 0.6)
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-image{
+    margin-bottom: -0.3em;
+    width: 28px;
+    height: 28px;
+}
+
+.animate{
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 20s; 
+    -webkit-animation-iteration-count: 3;
+    -webkit-animation-delay: 5s;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+}
+
+@keyframes example {
+    0%    {transform: none;border-color: rgb(155, 219, 246);border-width: 10px; height: 12em;top:0em;}
+    15%   {transform: none;border-color: rgb(30, 156, 230);border-width: 5px; height: 4em;top:4em}
+    25%   {transform: none;border-color: rgb(155, 219, 246);border-width: 20px; height: 10em;top:1em}
+    40%   {transform: none;border-color: rgb(30, 156, 230);border-width: 10px; height: 12em;top:-4em}
+    47%   {transform: none;border-color: rgb(155, 219, 246); height: 10em;top:4em}
+    57%   {transform: none;border-color: rgb(30, 156, 230); height: 12em;top:-2em}
+    61%   {transform: none;border-color: rgb(155, 219, 246); height: 11em;top:0em}
+    63%   {transform: none;border-color: rgb(30, 156, 230); height: 12em;top:0em}
+    75%   {transform: rotateY(180deg)}
+    87%   {transform: rotateY(-180deg)}
+    95%   {transform: rotateY(0deg)}
+    100%  {transform: none;border-color: rgb(155, 219, 246); height: 12em;top:0em;}
+}
+
+@-webkit-keyframes example {
+    0%    {-webkit-transform: none;border-color: rgb(155, 219, 246);border-width: 10px; height: 12em;top:0em;}
+    15%   {-webkit-transform: none;border-color: rgb(30, 156, 230);border-width: 5px; height: 4em;top:4em}
+    25%   {-webkit-transform: none;border-color: rgb(155, 219, 246);border-width: 20px; height: 10em;top:1em}
+    40%   {-webkit-transform: none;border-color: rgb(30, 156, 230);border-width: 10px; height: 12em;top:-4em}
+    47%   {-webkit-transform: none;border-color: rgb(155, 219, 246); height: 10em;top:4em}
+    57%   {-webkit-transform: none;border-color: rgb(30, 156, 230); height: 12em;top:-2em}
+    61%   {-webkit-transform: none;border-color: rgb(155, 219, 246); height: 11em;top:0em}
+    63%   {-webkit-transform: none;border-color: rgb(30, 156, 230); height: 12em;top:0em}
+    75%   {-webkit-transform: rotateY(180deg)}
+    87%   {-webkit-transform: rotateY(-180deg)}
+    95%   {-webkit-transform: rotateY(0deg)}
+    100%  {-webkit-transform: none;border-color: rgb(155, 219, 246); height: 12em;top:0em;}
+}
+
