@@ -8,7 +8,7 @@
 
 .head{
     padding-top: 7em;
-    background-image: url("https://image.ibb.co/nymPrH/background.png");
+    background-image: url("assets/img/background.png");
     background-repeat: no-repeat;
     width: 100%;
 }
@@ -44,7 +44,7 @@ body{
     height:100%;
 }
 
-.h1{
+h1{
     text-align: center;
     color: rgb(244, 255, 251);
     padding: 0 15px 5px;
@@ -166,7 +166,7 @@ right{
     color: #fff;
     background-color: #218838;
     border-color: #1e7e34;
-}
+  }
 
 .button:focus, .button.focus {
     box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
@@ -176,6 +176,7 @@ right{
     background-color: #78967f;
     border-color: #78967f;
 }
+
 .button:not([disabled]):not(.disabled):active, .button:not([disabled]):not(.disabled).active{
   color: #fff;
   background-color: #1e7e34;
@@ -241,6 +242,10 @@ footer{
     animation-duration: 20s;
     animation-delay: 5s;
     animation-iteration-count: 3;
+}
+
+.grid{
+    justify-content: space-evenly;
 }
 
 @keyframes example {
